@@ -18,34 +18,121 @@
       border-radius: 128px;
     }
 
+    .thumbnail {
+      width: 48px;
+      height: 48px;
+      border-radius: 48px;
+      object-fit: contain;
+    }
+
+    body {
+      background-color: #004643;
+    }
+
+    .name {
+      color: #fffffe;
+    }
+
+    .social-icons a {
+      color: #fffffe;
+      text-decoration: none;
+    }
+
+    .item {
+      background-color: #f9bc60;
+    }
+
+    .link {
+      color: #001e1d;
+      text-decoration: none;
+    }
+
+    .items {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      max-width: 640px;
+    }
+
+    .link {
+      background-color: #f9bc60;
+      display: flex;
+      align-items: center;
+    }
+
+    .link a {
+      color: #001e1d;
+      text-decoration: none;
+      text-align: center;
+      flex-grow: 1;
+    }
+
+    .name {
+      color: #fffffe;
+      display: flex;
+      justify-content: center;
+    }
+
+    .banner {
+      display: flex;
+      justify-content: center;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+    }
+
+    .items {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      max-width: 640px;
+      flex-grow: 1;
+    }
+
+    .link {
+      background-color: #f9bc60;
+      display: flex;
+      align-items: center;
+      padding: 5px;
+    }
+
   </style>
 
 </head>
 
 <body>
 
-  <div class="banner">
-    <img src="/Arszman_Michael.jpg" alt="Michael Arszman headshot" class="banner-image">
-  </div> 
+  <div class="items">
 
-  <div class="name">
-    Michael Arszman
-  </div>
+    <div class="banner">
+      <img src="/Arszman_Michael.jpg" alt="Michael Arszman headshot" class="banner-image">
+    </div> 
+
+    <div class="name">
+      Michael Arszman
+    </div>
     
-  <div class="social-icons">
+    <div class="social-icons">
 
-    <a href="https://github.com/marszman" target="_blank"> Github </a>
-    <a href="https://www.linkedin.com/in/michael-arszman/" target="_blank"> LinkedIn </a>
-    <a href="https://www.instagram.com/" target="_blank"> Instagram </a>
-    <a href="https://twitter.com/" target="_blank"> Twitter </a>
+     <a href="https://github.com/marszman" target="_blank"> Github </a>
+      <a href="https://www.linkedin.com/in/michael-arszman/" target="_blank"> LinkedIn </a>
+      <a href="https://www.instagram.com/" target="_blank"> Instagram </a>
+      <a href="https://twitter.com/" target="_blank"> Twitter </a>
     
-  </div>
+    </div>
 
-  <div class="item"></div>
+  
     
     <div class="item">
 
-      <img src="McKinsey_Script_Mark_2019.svg.png" alt="article">
+      <img src="McKinsey_Script_Mark_2019.svg.png" alt="article" class="thumbnail">
 
       <a class="link" target="_blank" href="https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/the-strategic-yardstick-you-cant-afford-to-ignore">McKinsey & Company: The strategic yardstick you can’t afford to ignore</a>
 
@@ -53,7 +140,7 @@
 
     <div class="item">
 
-      <img src="TED_three_letter_logo.svg.png" alt="article">
+      <img src="TED_three_letter_logo.svg.png" alt="article" class="thumbnail">
 
       <a class="link" target="_blank" href="https://www.ted.com/talks/dan_ariely_what_makes_us_feel_good_about_our_work?language=en">TED Talk: Dan Ariely - What makes us feel good about our work? </a>
       
@@ -61,7 +148,7 @@
     
     <div class="item">
 
-      <img src="Youtube_logo.png" alt="article">
+      <img src="Youtube_logo.png" alt="article" class="thumbnail">
 
       <a class="link" target="_blank" href="https://www.youtube.com/@Whiskycom">Whisky.com - Reviews</a>
       
@@ -69,7 +156,7 @@
     
     <div class="item">
 
-      <img src="a_company_logo_specializing_in_pork_bbq_3951463598.png" alt="article">
+      <img src="a_company_logo_specializing_in_pork_bbq_3951463598.png" alt="article" class="thumbnail">
 
       <a class="link" target="_blank" href="https://amazingribs.com/">AmazingRibs.com - the authoritative source for BBQ</a>
       
